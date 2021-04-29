@@ -47,8 +47,3 @@ def monty_hall_prob(n=3, num_mc=1000):
 
     return [p1, p2]
 
-
-for num_mc in [100, 200, 500, 1000, 2000, 5000]:
-    # print('n=' + str(num_mc) + ', ' + str(monty_hall_prob(n=5, num_mc=num_mc)))
-    print('n=' + str(num_mc) + ', ' + str(monty_hall_prob(num_mc=num_mc)))
-
